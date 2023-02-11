@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+ /* colors */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    --font-size-paragraph:15px;
+    --font-family: 'Outfit', sans-serif;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+p {
+    font-size: var(--font-size-paragraph);
+    color: var(--Grayishblue);
+    text-align: center;
+    font-weight: 400;
+}
+h1 {
+    color: var(--Darkblue);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 85px 28px;
+    align-items: center;
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: var(--Lightgray);
+}
+.box{
+    background-color: var(--White);
+    padding: 18px;
+    max-width: 320px;
+    border-radius: 20px;
+}
+.details {
+    padding: 18px;
+}
+
+.attribution {
+    text-align: center;
+    background-color: var(--Lightgray);
+}
+.attribution a {
+    text-decoration: none;
+    cursor: pointer;
+}
