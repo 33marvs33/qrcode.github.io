@@ -62,8 +62,9 @@ main {
     padding: 18px;
 }
 
+footer {
+   max-width: 1440px; 
 .attribution {
-    max-width: 1440px;
     width:100%;
     text-align: center;
     background-color: var(--Lightgray);
