@@ -47,6 +47,7 @@ main {
     justify-content: center;
     padding: 85px 28px;
     align-items: center;
+    width:100%;
     max-width: 1440px;
     min-width: 375px;
     background-color: var(--Lightgray);
@@ -62,7 +63,8 @@ main {
 }
 
 .attribution {
-    max-width:100%;
+    max-width: 1440px;
+    width:100%;
     text-align: center;
     background-color: var(--Lightgray);
 }
