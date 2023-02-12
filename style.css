@@ -24,7 +24,7 @@
 img {
     display: block;
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 0.9375em;
     margin: 0 auto;
 }
 p {
@@ -35,35 +35,34 @@ p {
 }
 h1 {
     color: var(--Darkblue);
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     font-weight: 700;
-    padding-bottom: 15px;
+    padding-bottom: 0.9375rem;
 }
 
 
 main {
     display: flex;
     justify-content: center;
-    padding: 85px 28px;
+    padding: 5.3125em 1.75em;
     align-items: center;
     width:100%;
-    max-width: 1440px;
-    min-width: 375px;
+    min-width: 23.4375rem;
     background-color: var(--Lightgray);
 }
 .box{
     background-color: var(--White);
-    padding: 18px;
-    max-width: 320px;
-    border-radius: 20px;
+    padding: 1.125em;
+    max-width: 20rem;
+    border-radius: 1.25em;
 }
 .details {
-    padding: 18px;
+    padding: 1.125em;
 }
 
 footer {
-   max-width: 1440px; 
+   width: 100%; 
 }
 .attribution {
     width:100%;
