@@ -3,13 +3,8 @@
 /* - Mobile: 375px
 - Desktop: 1440px */
 
-/* reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-family);
-}
+
+
  /* colors */
 :root {
     --White: hsl(0, 0%, 100%);
@@ -19,7 +14,13 @@
     --font-size-paragraph:15px;
     --font-family: 'Outfit', sans-serif;
 }
-
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
 
 img {
     display: block;
@@ -48,6 +49,7 @@ main {
     padding: 5.3125em 1.75em;
     align-items: center;
     width:100%;
+    height:100vh;
     min-width: 23.4375rem;
     background-color: var(--Lightgray);
 }
